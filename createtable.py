@@ -1,11 +1,11 @@
 import mysql.connector
 
-# create connection object to database PracticeDB
+# create connection object to database yourdb
 mydb_connection = mysql.connector.connect(
 		host = "localhost",
-		user = "pramod",
-		password = "Tfgh5671@",
-		database = "PracticeDB"
+		user = "username",
+		password = "password",
+		database = "yourdb"
 )
 
 # get connection command object
